@@ -11,7 +11,7 @@ import cv2 #using openCV 3.4.0
 
 #Making use of the argument parser library
 argparser = argparse.ArgumentParser()
-#argparser.add_argument("-i", "--imageOfInterest", required = True, help = "Put your path to the image file here")
+
 argparser.add_argument("-p", "--prototxt", required = True, help="path to Caffe 'deploy' prototxt file" )
 argparser.add_argument("-pm", "--preTrainedModel", required = True, help = "path to Caffe pre-trained model")
 argparser.add_argument("-prob", "--probabilty", type = float, default = 0.2, help = "the lowest probabilty needed to filter out weak object detections")
