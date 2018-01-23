@@ -9,5 +9,5 @@ Here are the research papers of SSD and MobileNet: SSD: https://arxiv.org/pdf/15
 Go to directory where ObjectDetect.py exists.
 On terminal, type: python ObjectDetect.py --prototxt MobileNetSSD_deploy.prototxt.txt --preTrainedModel MobileNetSSD_deploy.caffemodel
 
-Please note: https://github.com/chuanqi305/MobileNet-SSD is where the following two files are found: MobileNetSSD_deploy.caffemodel and MobileNetSSD_deploy.prototxt
+Please note: https://github.com/chuanqi305/MobileNet-SSD is where the following two files are found: MobileNetSSD_deploy.caffemodel and MobileNetSSD_deploy.prototxt.
 Initially, the original objectDetection I had was only with respect to images; this is detecting objects with labels in videos and as well tracking them.
